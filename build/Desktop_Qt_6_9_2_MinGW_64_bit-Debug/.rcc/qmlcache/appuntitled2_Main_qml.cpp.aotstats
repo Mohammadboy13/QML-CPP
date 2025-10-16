@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 295,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 58
+                    }
+                ],
+                "filePath": "D:/QT_project/untitled2/Main.qml"
+            }
+        ],
+        "moduleId": "untitled2(appuntitled2)"
+    }
+]
