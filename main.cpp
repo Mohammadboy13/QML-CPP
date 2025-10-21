@@ -1,31 +1,27 @@
 #include "parsejson.h"
 #include "qmlcreator.h"
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
-#include <QString>
-#include <QGuiApplication>
-#include <QQuickWindow>
+#include <QQmlContext>
 
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
+
     QGuiApplication app(argc, argv);
-
+    QQmlApplicationEngine engine;
 
     ParseJson file("D:/QT_project/Ronia/configure.json");
-
     QList<matchmember> field = file.get();
 
-    QMLCreator component(field);
 
-    QQmlApplicationEngine engine;
-    QObject::connect(
-        &engine,
-        &QQmlApplicationEngine::objectCreationFailed,
-        &app,
-        []() { QCoreApplication::exit(-1); },
-        Qt::QueuedConnection);
-    engine.loadFromModule("untitled2", "Main");
+    QMLCreator components;
+
+    components.setMembers(field);
+
+
+    engine.rootContext()->setContextProperty("QMLCreator",&components);
+    engine.load(QUrl::fromLocalFile("D:/QT_project/Ronia/Newfolder/QML-CPP/Main.qml"));
 
     return app.exec();
 }

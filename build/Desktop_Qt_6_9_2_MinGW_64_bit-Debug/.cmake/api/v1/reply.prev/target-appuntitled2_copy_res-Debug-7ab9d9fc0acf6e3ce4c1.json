@@ -23,7 +23,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -41,7 +41,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 3607,
+				"line" : 3613,
 				"parent" : 3
 			},
 			{
@@ -56,8 +56,8 @@
 	{
 		"name" : "QtInternalTargets"
 	},
-	"id" : "appuntitled2_copy_qml::@6890427a1f51a3e7e1df",
-	"name" : "appuntitled2_copy_qml",
+	"id" : "appuntitled2_copy_res::@6890427a1f51a3e7e1df",
+	"name" : "appuntitled2_copy_res",
 	"paths" : 
 	{
 		"build" : ".",
@@ -86,19 +86,19 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appuntitled2_copy_qml",
+			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appuntitled2_copy_res",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appuntitled2_copy_qml.rule",
+			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appuntitled2_copy_res.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/appuntitled2_qml.txt.rule",
+			"path" : "build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/appuntitled2_res.txt.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

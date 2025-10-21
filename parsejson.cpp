@@ -63,7 +63,7 @@ bool ParseJson::parseCppmember(const QJsonObject &root){
                 config.cppMembers.append(member);
             }
         }else{
-            qWarning("cpp object is not define member array or member isn't arrray");;
+            qWarning("cpp object is not define member array or member isn't arrray");
             return -1;
         }
     }else{
@@ -88,7 +88,7 @@ bool ParseJson::parseQmlmember(const QJsonObject &root){
                 config.qmlMembers.append(member);
             }
         }else{
-            qWarning("cpp object is not define member array or member isn't arrray");;
+            qWarning("cpp object is not define member array or member isn't arrray");
             return -1;
         }
         return 1;

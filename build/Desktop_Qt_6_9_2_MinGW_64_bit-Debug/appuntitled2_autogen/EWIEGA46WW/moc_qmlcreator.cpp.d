@@ -1,6 +1,7 @@
-D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/EWIEGA46WW/moc_qmlcreator.cpp: D:/QT_project/untitled2/qmlcreator.h \
-  D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/moc_predefs.h \
+D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/EWIEGA46WW/moc_qmlcreator.cpp: D:/QT_project/Ronia/Newfolder/QML-CPP/qmlcreator.h \
+  D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/moc_predefs.h \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QJsonObject \
+  C:/Qt/6.9.2/mingw_64/include/QtCore/QMetaType \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h \
@@ -378,4 +379,4 @@ D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_a
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/QT_project/untitled2/parsejson.h
+  D:/QT_project/Ronia/Newfolder/QML-CPP/parsejson.h

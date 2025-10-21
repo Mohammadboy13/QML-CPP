@@ -1,124 +1,107 @@
-import QtQuick
-import QtQuick.Controls 2.0
-import QtQuick.Window 2.0
-import QtQuick.Layouts 1.0
-import QtQuick.Dialogs
+import QtQuick 2.15
+import QtQuick.Window 2.15
+
 Window {
-
-    id : parent
-    width: 640
-    height: 480
+    width: 1000
+    height: 600
     visible: true
-    title: qsTr("Hello World")
-    color: "lightblue"
+    title: "QML Creator - Rectangles"
 
-
-    Rectangle{
-
-        id:rect
-        height: 10
-        width: 10
-        x: 10
-        y: 10
-        color: "red"
-        opacity: 0.4
-        visible: true
-        rotation: 10
-        scale: 1.5
-    }
-    // Button {
-    //     id: myButton
-    //     text: "Click me"
-
-    //     // پاسخ به سیگنال clicked
-    //     onClicked: {
-    //         console.log("Button clicked!")
-    //         text = "Clicked!"
-    //     }
-    // }
     Rectangle {
-        id: animatedRect
-        width: 100; height: 100
-        color: "red"
+        anchors.fill: parent
+        color: "#f0f0f0"
 
-        // انیمیشن‌ها
-        Behavior on x {
-            NumberAnimation { duration: 500 }
+        Text {
+            anchors.top: parent.top
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.topMargin: 10
+            text: "QML Creator - " + QMLCreator.members.length + " rectangles"
+            font.pixelSize: 16
+            font.bold: true
         }
 
-        Behavior on color {
-            ColorAnimation { duration: 300 }
-        }
+        // Repeater to create rectangles from C++ data
+        Repeater {
+            model: QMLCreator.members
 
-        // حالت‌ها
-        states: [
-            State {
-                name: "active"
-                PropertyChanges {
-                    target: animatedRect
-                    color: "green"
-                    scale: 1.5
+            delegate: Rectangle {
+                id: memberRect
+
+                // Standard size
+                width: 100
+                height: 100
+
+                // Position from C++ data
+                x: modelData.X
+                y: modelData.Y
+
+                // Color from C++ data
+                color: modelData.color_Hex
+
+                border {
+                    width: 2
+                    color: "black"
+                }
+                radius: 8
+
+                // Display information
+                Column {
+                    anchors.centerIn: parent
+                    spacing: 3
+
+                    Text {
+                        text: modelData.Id_qml
+                        font.pixelSize: 12
+                        font.bold: true
+                        color: "white"
+                        horizontalAlignment: Text.AlignHCenter
+                    }
+
+                    Text {
+                        text: "CPP: " + modelData.Id_cpp
+                        font.pixelSize: 10
+                        color: "white"
+                        horizontalAlignment: Text.AlignHCenter
+                    }
+
+                    Text {
+                        text: modelData.Msec + " ms"
+                        font.pixelSize: 10
+                        color: "white"
+                        horizontalAlignment: Text.AlignHCenter
+                    }
+
+                    Text {
+                        text: modelData.Min + " - " + modelData.Max
+                        font.pixelSize: 10
+                        color: "white"
+                        horizontalAlignment: Text.AlignHCenter
+                    }
+                }
+
+                // Drag functionality
+                Drag.active: dragArea.drag.active
+                Drag.hotSpot.x: width / 2
+                Drag.hotSpot.y: height / 2
+
+                MouseArea {
+                    id: dragArea
+                    anchors.fill: parent
+                    drag.target: parent
+
+                    onReleased: {
+                        // Update position in C++ when user moves rectangle
+                        qmlCreator.updatePosition(modelData.Id_qml, parent.x, parent.y)
+                        console.log("Moved", modelData.Id_qml, "to position:", parent.x, parent.y)
+                    }
+
+                    onClicked: {
+                        console.log("Clicked:", modelData.Id_qml,
+                                   "Color:", modelData.color_Hex,
+                                   "CPP Data:", modelData.Id_cpp)
+                    }
                 }
             }
-        ]
-
-        // ترانزیشن بین حالت‌ها
-        transitions: [
-            Transition {
-                from: "*"; to: "active"
-                NumberAnimation { properties: "scale"; duration: 200 }
-            }
-        ]
-    }
-
-
-    /*
-    Rectangle{
-        color: "lightgreen"
-        width: parent.width/2
-        height: parent.height
-        RowLayout {
-           TextField {
-               id: passwordInput
-                width: parent.width - revealButton.width
-                placeholderText: "Password"
-                echoMode: passwordVisible ? TextInput.Password : TextInput.Normal
-            }
-        SpinBox{
-            anchors.centerIn: parent
-
-        }
-        }
-
-    }
-    Rectangle {
-        id: master
-        x: 10
-        y: 10
-        width: 50
-        height: 50
-        color: "#00ff00"
-
-        Behavior on x {
-            NumberAnimation {
-                duration: 2000
-            }
         }
     }
-
-    Text{
-        id: "hellobox";
-        text:"Hello WORLD"
-    }
-    Column {
-        width: 200; height: 200
-
-        TextInput { id: myTextInput; text: "Hello World" }
-
-        Text { text: myTextInput.text }
-    }Rectangle {
-        property color red
-        property color nextColor
-        onNextColorChanged: console.log("The next color will be: " + nextColor.toString())
-    }*/
 }

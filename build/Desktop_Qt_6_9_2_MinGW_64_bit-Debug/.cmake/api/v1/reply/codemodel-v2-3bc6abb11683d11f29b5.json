@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-7690db0645a96089bd77.json",
+					"jsonFile" : "directory-.-Debug-a85fce9d798637f9a2fc.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -77,42 +77,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint-Debug-6c4429fd85302a485482.json",
+					"jsonFile" : "target-all_qmllint-Debug-c4636bb60e9e54a4796e.json",
 					"name" : "all_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_json-Debug-ad9dfdc2f478dd3fb856.json",
+					"jsonFile" : "target-all_qmllint_json-Debug-bc6246e5747acef15a4e.json",
 					"name" : "all_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_module-Debug-e93f131ca97a95041767.json",
+					"jsonFile" : "target-all_qmllint_module-Debug-c3af715bd3cfa4b1ff1c.json",
 					"name" : "all_qmllint_module",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmltyperegistrations-Debug-4d00f5bf740e5d2543cd.json",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-d829253d9cf59daeef53.json",
 					"name" : "all_qmltyperegistrations",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appuntitled2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appuntitled2-Debug-01b4bb2f1c8eb3b5bb12.json",
+					"jsonFile" : "target-appuntitled2-Debug-6f8d429ec5caf751a1c7.json",
 					"name" : "appuntitled2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appuntitled2_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appuntitled2_autogen-Debug-2bfc0f92f36b2782417e.json",
+					"jsonFile" : "target-appuntitled2_autogen-Debug-3be37053c8b9988e19f2.json",
 					"name" : "appuntitled2_autogen",
 					"projectIndex" : 0
 				},
@@ -126,14 +126,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appuntitled2_copy_qml::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appuntitled2_copy_qml-Debug-0591992b58c39c8ea254.json",
+					"jsonFile" : "target-appuntitled2_copy_qml-Debug-a1ef27a961222a8177e4.json",
 					"name" : "appuntitled2_copy_qml",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appuntitled2_copy_res::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appuntitled2_copy_res-Debug-3fef17d59cfb6947f48e.json",
+					"jsonFile" : "target-appuntitled2_copy_res-Debug-7ab9d9fc0acf6e3ce4c1.json",
 					"name" : "appuntitled2_copy_res",
 					"projectIndex" : 0
 				},
@@ -147,28 +147,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appuntitled2_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appuntitled2_qmllint-Debug-05e64aa7e4150927514c.json",
+					"jsonFile" : "target-appuntitled2_qmllint-Debug-9b1d76a8a0bd8efa76bb.json",
 					"name" : "appuntitled2_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appuntitled2_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appuntitled2_qmllint_json-Debug-d7f8f6228d975db6794d.json",
+					"jsonFile" : "target-appuntitled2_qmllint_json-Debug-b3e360d390c8494f31b1.json",
 					"name" : "appuntitled2_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appuntitled2_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appuntitled2_qmllint_module-Debug-d3bc7e2f19252866ee9e.json",
+					"jsonFile" : "target-appuntitled2_qmllint_module-Debug-b4c963e8eedbf8122dda.json",
 					"name" : "appuntitled2_qmllint_module",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appuntitled2_qmltyperegistration::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appuntitled2_qmltyperegistration-Debug-958f68091c7850e467ca.json",
+					"jsonFile" : "target-appuntitled2_qmltyperegistration-Debug-7e8e98b78b66a76e1ea9.json",
 					"name" : "appuntitled2_qmltyperegistration",
 					"projectIndex" : 0
 				},
@@ -185,8 +185,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
-		"source" : "D:/QT_project/untitled2"
+		"build" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
+		"source" : "D:/QT_project/Ronia/Newfolder/QML-CPP"
 	},
 	"version" : 
 	{

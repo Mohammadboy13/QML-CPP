@@ -33,6 +33,7 @@ appuntitled2_autogen/timestamp: \
   C:/Program\ Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake \
   C:/Program\ Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QJsonObject \
+  C:/Qt/6.9.2/mingw_64/include/QtCore/QMetaType \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h \
@@ -1041,7 +1042,7 @@ appuntitled2_autogen/timestamp: \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/QT_project/untitled2/CMakeLists.txt \
+  D:/QT_project/Ronia/Newfolder/QML-CPP/CMakeLists.txt \
   .qt/qml_imports/appuntitled2_conf.cmake \
   .qtc/package-manager/auto-setup.cmake \
   .qtc/package-manager/maintenance_tool_provider.cmake \
@@ -1049,8 +1050,8 @@ appuntitled2_autogen/timestamp: \
   CMakeFiles/3.27.5/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.5/CMakeSystem.cmake \
   appuntitled2_autogen/moc_predefs.h \
-  D:/QT_project/untitled2/main.cpp \
-  D:/QT_project/untitled2/parsejson.cpp \
-  D:/QT_project/untitled2/parsejson.h \
-  D:/QT_project/untitled2/qmlcreator.cpp \
-  D:/QT_project/untitled2/qmlcreator.h
+  D:/QT_project/Ronia/Newfolder/QML-CPP/main.cpp \
+  D:/QT_project/Ronia/Newfolder/QML-CPP/parsejson.cpp \
+  D:/QT_project/Ronia/Newfolder/QML-CPP/parsejson.h \
+  D:/QT_project/Ronia/Newfolder/QML-CPP/qmlcreator.cpp \
+  D:/QT_project/Ronia/Newfolder/QML-CPP/qmlcreator.h

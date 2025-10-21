@@ -23,7 +23,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -71,11 +71,11 @@
 			"id" : "appuntitled2_copy_res::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 7,
-			"id" : "appuntitled2_copy_qml::@6890427a1f51a3e7e1df"
+			"id" : "appuntitled2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "appuntitled2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 7,
+			"id" : "appuntitled2_copy_qml::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,

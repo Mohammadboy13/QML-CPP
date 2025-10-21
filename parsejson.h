@@ -1,6 +1,7 @@
 #ifndef PARSEJSON_H
 #define PARSEJSON_H
 #include <QString>
+#include <QMetaType>
 #include <QJsonObject>
 struct Cppmember{
     QString Id;
@@ -26,6 +27,7 @@ struct matchmember{
     int Min;
     int Max;
 };
+
 
 struct Config {
     QList<Cppmember> cppMembers;

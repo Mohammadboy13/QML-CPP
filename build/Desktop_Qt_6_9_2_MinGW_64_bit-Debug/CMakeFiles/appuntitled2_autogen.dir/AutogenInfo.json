@@ -1,18 +1,18 @@
 {
-	"BUILD_DIR" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen",
-	"CMAKE_BINARY_DIR" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/QT_project/untitled2",
+	"BUILD_DIR" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen",
+	"CMAKE_BINARY_DIR" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/QT_project/Ronia/Newfolder/QML-CPP",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/QT_project/untitled2/CMakeLists.txt",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.27.5/CMakeSystem.cmake",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/CMakeLists.txt",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.27.5/CMakeSystem.cmake",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.27.5/CMakeCXXCompiler.cmake",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.27.5/CMakeCXXCompiler.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
@@ -25,7 +25,7 @@
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.27.5/CMakeRCCompiler.cmake",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.27.5/CMakeRCCompiler.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-windres.cmake",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -1078,29 +1078,29 @@
 		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/qml_imports/appuntitled2_conf.cmake"
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/qml_imports/appuntitled2_conf.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/QT_project/untitled2",
-	"DEP_FILE" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "D:/QT_project/Ronia/Newfolder/QML-CPP",
+	"DEP_FILE" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appuntitled2_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"D:/QT_project/untitled2/parsejson.h",
+			"D:/QT_project/Ronia/Newfolder/QML-CPP/parsejson.h",
 			"MU",
 			"EWIEGA46WW/moc_parsejson.cpp",
 			null
 		],
 		[
-			"D:/QT_project/untitled2/qmlcreator.h",
+			"D:/QT_project/Ronia/Newfolder/QML-CPP/qmlcreator.h",
 			"MU",
 			"EWIEGA46WW/moc_qmlcreator.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -1131,7 +1131,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"D:/QT_project/untitled2",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP",
 		"C:/Qt/6.9.2/mingw_64/include/QtQml/6.9.2",
 		"C:/Qt/6.9.2/mingw_64/include/QtQml/6.9.2/QtQml",
 		"C:/Qt/6.9.2/mingw_64/include/QtCore/6.9.2",
@@ -1174,39 +1174,39 @@
 		"-c",
 		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appuntitled2_raw_qml_0.cpp",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_untitled2.cpp",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.rcc/qmlcache/appuntitled2_Main_qml.cpp",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.rcc/qmlcache/appuntitled2_qmlcache_loader.cpp",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_qmltyperegistrations.cpp"
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appuntitled2_raw_qml_0.cpp",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_untitled2.cpp",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.rcc/qmlcache/appuntitled2_Main_qml.cpp",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.rcc/qmlcache/appuntitled2_qmlcache_loader.cpp",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 10,
-	"PARSE_CACHE_FILE" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appuntitled2_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appuntitled2_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.9.2/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appuntitled2_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appuntitled2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/QT_project/untitled2/main.cpp", "MU", null ],
-		[ "D:/QT_project/untitled2/parsejson.cpp", "MU", null ],
-		[ "D:/QT_project/untitled2/qmlcreator.cpp", "MU", null ]
+		[ "D:/QT_project/Ronia/Newfolder/QML-CPP/main.cpp", "MU", null ],
+		[ "D:/QT_project/Ronia/Newfolder/QML-CPP/parsejson.cpp", "MU", null ],
+		[ "D:/QT_project/Ronia/Newfolder/QML-CPP/qmlcreator.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appuntitled2_raw_qml_0.cpp",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_untitled2.cpp",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.rcc/qmlcache/appuntitled2_Main_qml.cpp",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.rcc/qmlcache/appuntitled2_qmlcache_loader.cpp",
-		"D:/QT_project/untitled2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_qmltyperegistrations.cpp"
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appuntitled2_raw_qml_0.cpp",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_untitled2.cpp",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.rcc/qmlcache/appuntitled2_Main_qml.cpp",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.rcc/qmlcache/appuntitled2_qmlcache_loader.cpp",
+		"D:/QT_project/Ronia/Newfolder/QML-CPP/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled2_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0

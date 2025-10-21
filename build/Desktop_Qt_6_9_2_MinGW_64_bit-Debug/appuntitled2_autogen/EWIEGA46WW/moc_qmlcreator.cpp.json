@@ -3,8 +3,66 @@
         {
             "className": "QMLCreator",
             "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "members",
+                            "type": "QList<matchmember>"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setMembers",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id_qml",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "updatePosition",
+                    "returnType": "void"
+                }
+            ],
             "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "members",
+                    "notify": "membersChanged",
+                    "read": "getMembers",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                }
+            ],
             "qualifiedClassName": "QMLCreator",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "membersChanged",
+                    "returnType": "void"
+                }
+            ],
             "superClasses": [
                 {
                     "access": "public",
